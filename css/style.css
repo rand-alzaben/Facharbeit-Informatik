@@ -1,0 +1,75 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #f1f1f1;
+  position: absolute;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+p {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.external {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .middle {
+    display: table-cell;
+  }
+  .internal {
+    margin-left: 500px;
+    text-align:justify;
+    width: 1000px;
+  }
+
+.left {
+    display: table-cell;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  color: #3fb0ac;
+}
+h2 {
+  color:rgb(163, 31, 163);
+}
+h4 {
+  color:rgb(201, 74, 137);
+}
